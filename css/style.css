@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(82, 82, 82);
+    text-transform: capitalize;
+    font-size: 80%;
+}
+
+
+a:hover {
+    
+}
+
+header {
+    border-bottom: 1px solid gray;
+    padding: 2px 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
