@@ -1,5 +1,4 @@
-
-        function checkSum() {
+         function checkSum() {
             const input = document.getElementById('arrayInput1').value.trim();
             const resultDiv = document.getElementById('sumResult');
             
@@ -51,3 +50,4 @@
                 resultDiv.textContent = `Ошибка: ${e.message}`;
             }
         }
+
